@@ -34,7 +34,7 @@ header{
 
 .navbar ul li{
     display: inline-block;
-    padding: 10px;
+    padding: 15px;
 }
 
 .navbar ul li a{
@@ -42,3 +42,46 @@ header{
     color: #555;
     font-size: 18px;
 }
+
+.header-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-text{
+    flex-basis: 50%;
+}
+
+.header-text h1{
+    font-size: 50px;
+}
+
+.header-text p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    font-size: 18px;
+    text-decoration: none;
+    background-color:#ff523b ;
+    padding: 20px 30px;
+    color: whitesmoke;
+    border-radius: 25px;
+    transition: background 0.9s;
+}
+
+.btn:hover{
+    background-color: #582020;
+
+}
+
+.header-image{
+    flex-basis: 50%;
+}
+
+.header-image img{
+    width: 100%;
+}
+

@@ -85,3 +85,166 @@ header{
     width: 100%;
 }
 
+.row{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-3{
+    flex-basis: 30%;
+
+}
+
+.col-3 img{
+    width: 100%; 
+    margin-bottom: 30px;
+}
+
+.main-container{
+    width: 65%;
+    margin: auto;
+}
+
+/* featured product */
+
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 10px;
+    transition: transform 0.5s;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.fas{
+    color: #ff523b;
+}
+
+.title{
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.title::after{
+    content: "";
+    background-color: #ff523b;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*------ brand -------*/
+
+.offer-section{
+    background: radial-gradient(#fff, #ffd4d4) ;
+}
+
+.brand{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.offer-image{
+    flex-basis: 50%;
+}
+
+.offer-image img{
+    width: 100%;
+}
+
+.offer-content{
+    flex-basis: 50%;
+}
+
+.button{
+    margin-top: 30px;
+}
+
+/* -----testimonial----- */
+
+.testimonial{
+    /* width: 60%; */
+    /* margin: auto; */
+}
+
+.fa{
+    color: #ff523b;
+    margin-top: 30px;
+}
+
+.main-testimonial{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 200px;
+    align-items: center;
+}
+
+.testimonial-box{
+    flex-basis: 30%;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1) ;
+    transition: transform 0.5s;
+    margin-bottom: 60px;
+}
+
+.testimonial-box:hover{
+    transform: translateY(-5px);
+}
+
+.testimonial-box img{
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+} 
+
+.testimonial-box p{
+    /* text-align: center; */
+    font-size: 12px;
+}
+
+/* <!--------- branding ----------> */
+
+.branding-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.branding-image{
+    flex-basis: 16%;
+    filter: grayscale(100%);
+}
+
+.branding-image img{
+    width: 100%;
+   
+}
+
+.branding-image:hover{
+    filter: grayscale(0 );
+}
+
+/* ---------footer------------- */
+
+
+
+
+
